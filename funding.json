@@ -1,0 +1,132 @@
+{
+  "name": "OmniLite: Accessible Multiomics Analysis Platform",
+  "description": "An open-source, lightweight multiomics analysis platform designed for researchers in resource-limited settings. Enables complex genomic analyses (scRNA-seq + ATAC-seq integration) for infectious disease research without requiring high-end computational infrastructure.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/himanshubhandary/omnilite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himanshubhandary/omnilite"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Himanshu Bhandary",
+      "email": "2032ushimanshu@gmail.com",
+      "url": "https://github.com/himanshubhandary"
+    }
+  ],
+  "funding": {
+    "total": 35000,
+    "currency": "USD",
+    "period": "12 months",
+    "breakdown": [
+      {
+        "category": "Developer Stipend",
+        "amount": 12000,
+        "description": "Full-time development work by MS student for 12 months"
+      },
+      {
+        "category": "Cloud Computing & Infrastructure",
+        "amount": 8000,
+        "description": "GPU credits for AI model training, cloud testing, and scalability validation"
+      },
+      {
+        "category": "Data Curation & Processing",
+        "amount": 5000,
+        "description": "Public dataset acquisition and preprocessing for TB, dengue, and AMR research"
+      },
+      {
+        "category": "Community & Training",
+        "amount": 6000,
+        "description": "Workshops for 3-5 Indian labs, tutorial videos, and documentation"
+      },
+      {
+        "category": "Dissemination & Sustainability",
+        "amount": 4000,
+        "description": "Open-access publication fees, conference travel, and long-term maintenance"
+      }
+    ],
+    "needs": [
+      "Developer time and expertise",
+      "Cloud computing resources for testing and validation",
+      "Community building and training infrastructure",
+      "Sustainable maintenance and support"
+    ]
+  },
+  "impact": {
+    "target_users": "Researchers in low- and middle-income countries (LMICs) working on infectious diseases",
+    "problem": "Multiomics analysis requires expensive computational infrastructure and proprietary tools, creating barriers for researchers in resource-limited settings",
+    "solution": "Lightweight, open-source platform that runs on low-spec machines with pre-built workflows for TB, dengue, and antimicrobial resistance research",
+    "geographic_focus": ["India", "Nepal", "Southeast Asia", "Sub-Saharan Africa"],
+    "disease_focus": ["Tuberculosis", "Dengue", "Antimicrobial Resistance", "Infectious Diseases"]
+  },
+  "milestones": [
+    {
+      "name": "Core Platform Development",
+      "timeline": "Months 1-4",
+      "deliverables": [
+        "Functional multiomics integration pipeline",
+        "Basic web interface for analysis",
+        "Documentation and installation guides"
+      ]
+    },
+    {
+      "name": "Validation & Testing",
+      "timeline": "Months 5-8",
+      "deliverables": [
+        "Validation on Indian infectious disease datasets",
+        "Performance optimization for low-spec machines",
+        "Beta testing with 3-5 research labs"
+      ]
+    },
+    {
+      "name": "Community Deployment",
+      "timeline": "Months 9-12",
+      "deliverables": [
+        "Training workshops in Indian institutions",
+        "Tutorial videos and multilingual documentation",
+        "Public release v1.0 with user support"
+      ]
+    }
+  ],
+  "sustainability": {
+    "model": "Open-source community-driven development",
+    "long_term_plan": [
+      "Build active user community in LMIC research institutions",
+      "Establish partnerships with bioinformatics training programs",
+      "Seek institutional adoption and contributions",
+      "Apply for follow-on grants (CZI EOSS, Wellcome Trust)"
+    ],
+    "open_source_commitment": "All code will remain open-source under MIT license with transparent development practices"
+  },
+  "team": {
+    "size": 1,
+    "members": [
+      {
+        "name": "Himanshu Bhandary",
+        "role": "Lead Developer & Researcher",
+        "affiliation": "MS Data Science, Chandigarh University, India",
+        "expertise": ["Bioinformatics", "Machine Learning", "Multiomics Integration", "Open-Source Development"]
+      }
+    ],
+    "advisors": "Seeking faculty collaboration at Chandigarh University for scientific guidance"
+  },
+  "keywords": [
+    "bioinformatics",
+    "multiomics",
+    "infectious-disease",
+    "LMIC",
+    "open-source",
+    "AI",
+    "genomics",
+    "public-health",
+    "accessibility",
+    "capacity-building"
+  ],
+  "social": {
+    "twitter": "@himanshubhandary",
+    "github": "himanshubhandary",
+    "linkedin": "himanshubhandary"
+  },
+  "updated": "2026-03-25"
+}
